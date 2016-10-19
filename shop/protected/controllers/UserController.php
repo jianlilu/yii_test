@@ -14,4 +14,16 @@ class UserController extends Controller {
 //        renderPatial()调用视图
         $this->renderPartial('login');
     }
+
+    function actionAa() {
+        echo "aa";
+    }
+
+    function actionRegister() {
+        $this->renderPartial('register');
+    }
+
+    function  actionCc() {
+        echo "cc";
+    }
 }
