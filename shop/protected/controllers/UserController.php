@@ -12,7 +12,8 @@ class UserController extends Controller {
 //        echo "i want to login";
 //        通过控制器方法调用视图
 //        renderPatial()调用视图
-        $this->renderPartial('login');
+//        $this->renderPartial('login');
+        $this->render('login');
     }
 
     function actionAa() {
@@ -20,7 +21,8 @@ class UserController extends Controller {
     }
 
     function actionRegister() {
-        $this->renderPartial('register');
+//        $this->renderPartial('register');
+        $this->render('register');
     }
 
     function  actionCc() {

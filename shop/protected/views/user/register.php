@@ -8,13 +8,13 @@
 
     <title>YONGDA商城 - Powered by YongDa</title>
 
-<!--    <link href="./assets/default/css/style.css" rel="stylesheet" type="text/css" />-->
+    <!--    <link href="./assets/default/css/style.css" rel="stylesheet" type="text/css" />-->
     <link href="<?php echo CSS_URL; ?>style.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body class="index_body">
 <div class="block clearfix" style="position: relative; height: 98px;">
-    <a href="#" name="top"><img class="logo" src="./images/logo.gif"></a>
+    <a href="#" name="top"><img class="logo" src="<?php echo IMG_URL; ?>logo.gif"></a>
 
     <div id="topNav" class="clearfix">
         <div style="float: left;">
@@ -57,25 +57,25 @@
         <input name="keywords" id="keyword" type="text" />
 
         <input name="imageField" value=" " class="go" style="cursor: pointer;
-        /*background: url('./assets/default/images/sousuo.gif') no-repeat scroll 0% 0% transparent;*/
+            /*background: url('./assets/default/images/sousuo.gif') no-repeat scroll 0% 0% transparent;*/
             background: url('<?php echo IMG_URL; ?>sousuo.gif') no-repeat scroll 0% 0% transparent;
-        width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px;
-        vertical-align: middle;" type="submit" />
+            width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px;
+            vertical-align: middle;" type="submit" />
 
     </form>
 </div>
 <div class="blank5"></div>
 <div class="header_bg_b">
     <div class="f_l" style="padding-left: 10px;">
-        <img src="./images/biao6.gif" />
+        <img src="<?php echo IMG_URL; ?>biao6.gif" />
         北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
 
     </div>
     <div class="f_r" style="padding-right: 10px;">
-        <img style="vertical-align: middle;" src="./images/biao3.gif">
+        <img style="vertical-align: middle;" src="<?php echo IMG_URL; ?>biao3.gif">
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-        <a href="#"><img style="vertical-align: middle;" src="./images/biao7.gif"></a>
+        <a href="#"><img style="vertical-align: middle;" src="<?php echo IMG_URL; ?>biao7.gif"></a>
 
     </div>
 </div>
@@ -220,7 +220,7 @@
 
 <div class="blank"></div>
 <div class="block">
-    <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="./images/di.jpg"></a>
+    <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo IMG_URL; ?>di.jpg"></a>
     <div class="blank"></div>
 </div>
 
@@ -277,10 +277,10 @@
 <div id="bottomNav" class="box block">
     <div class="box_1">
         <div class="links clearfix">
-            <a href="#" target="_blank" title="YONGDA商城"><img src="./images/ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
+            <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo IMG_URL; ?>ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
 
             <a href="#" target="_blank" title="YONGDA 网上商店管理系统">
-                <img src="./images/yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
+                <img src="<?php echo IMG_URL; ?>yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
             </a>
 
 
